@@ -1,0 +1,12 @@
+{
+  "name": "mobile_menu_2",
+  "version": "1.0.0",
+  "description": "Simple animated responsive menubar",
+  "main": "index.js",
+  "repository": "git@github.com:mhoumann87/mobile_menu_2.git",
+  "author": "Michael Houmann <mhoumann87@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.37.0"
+  }
+}
