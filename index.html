@@ -8,9 +8,71 @@
     <link rel="stylesheet" href="./dist/css/main.min.css" />
   </head>
   <body>
-    <header>
-      <h1>Logo Here</h1>
-      <nav></nav>
+    <header class="main-header">
+      <div class="logo">
+        <a href="#">
+          <h1>Logo Here</h1>
+        </a>
+      </div>
+
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="menu-icon__line"></span>
+      </label>
+
+      <ul class="nav-links">
+        <li class="nav-link"><a href="#">About</a></li>
+        <li class="nav-link"><a href="#">Portfolio</a></li>
+        <li class="nav-link"><a href="#">Services</a></li>
+        <li class="nav-link"><a href="#">Contact</a></li>
+      </ul>
     </header>
+
+    <main>
+      <section class="hero">
+        <img
+          src="./dist/images/ronald-cuyan-AJgFLjnmSs4-unsplash.jpg"
+          alt="Hero Image"
+        />
+      </section>
+
+      <section class="content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+          iure quisquam adipisci quas officiis. Maiores molestias at tempore quo
+          nulla.
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          eveniet incidunt quia? Sed quasi, laudantium aliquam, ipsa unde quidem
+          eius eaque animi quae blanditiis aspernatur itaque quibusdam tempora?
+          Delectus, repellendus sapiente illum unde exercitationem nostrum minus
+          aperiam quidem provident odit repudiandae neque sed dolores obcaecati
+          molestiae, tenetur ipsa similique expedita!
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="made-by">
+        2021 made by <a href="mailto:admin@michael-h.dk">Michael Houmann</a>
+      </div>
+
+      <div class="thanks">
+        Photo by
+        <a
+          href="https://unsplash.com/@ronaldcuyan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Ronald Cuyan</a
+        >
+        on
+        <a
+          href="https://unsplash.com/s/photos/color?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </div>
+
+      <div class="social"></div>
+    </footer>
   </body>
 </html>
