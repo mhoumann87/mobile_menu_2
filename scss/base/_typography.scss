@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import '../abstracts/';
+
+$base-font: 'Montserrat', sans-serif;
+
+@include headings {
+  font-family: $base-font;
+  font-weight: 400;
+}
+
+p {
+  font-family: $base-font;
+  font-weight: 400;
+}
+
+a {
+  font-family: $base-font;
+  color: #dc143c;
+  text-decoration: none;
+  transition: color 0.35s ease-in-out;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #920824;
+  }
+}

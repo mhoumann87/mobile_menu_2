@@ -1,0 +1,19 @@
+footer {
+  grid-area: footer;
+
+  padding: 2rem 1rem;
+  border-top: 0.125rem solid #000000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .social {
+    display: flex;
+
+    svg {
+      width: 2rem;
+      margin-left: 1rem;
+    }
+  }
+}
