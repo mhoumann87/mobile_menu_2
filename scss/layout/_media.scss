@@ -100,4 +100,10 @@
   .hero h2 {
     font-size: 2rem;
   }
+
+  footer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+  }
 }
