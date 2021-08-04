@@ -124,5 +124,5 @@ url.txt
 dist/css/
 
 # Ignore dist folder in src folder
-src/dist/
+scss/dist/
 
